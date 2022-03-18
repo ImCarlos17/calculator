@@ -8,6 +8,39 @@
     <title>Calculator</title>
   </head>
   <body>
+    <div class="container-calculator">
+      <div class="calculator">
+        <div class="screen">
+          <div class="last-operation">0</div>
+          <div class="current-value">0</div>
+        </div>
+
+        <div class="grid-buttons">
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button data-value="" class="delete">C</button>
+          <button data-value="" class="clear">AC</button>
+
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button data-value="subtract" class="operator">-</button>
+          <button data-value="add" class="operator">+</button>
+
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button data-value="divide" class="operator">/</button>
+          <button data-value="multiply" class="operator">*</button>
+          <button class="number">,</button>
+          <button class="number">0</button>
+          <button class="number">00</button>
+          <button class="btnEqual" onclick="equal()">=</button>
+        </div>
+      </div>
+    </div>
+    <footer><p>Copyright &copy The Odin Project 2022</p></footer>
     <script src="script.js"></script>
   </body>
 </html>
